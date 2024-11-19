@@ -1,0 +1,103 @@
+/* General container styling */
+.editor-page {
+    background-color: #180445; /* Light background */
+    padding: 2rem 0;
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  .editor-page .container {
+    background-color: #007bff;
+    max-width: 900px; /* Limit the width */
+    margin: 0 auto;
+    padding: 1rem;
+    background: #075c86; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .editor-page .row {
+    display: flex;
+    justify-content: center; /* Center the content */
+  }
+  
+  .editor-page .col-md-10 {
+    width: 100%;
+  }
+  
+  /* Form styling */
+  .editor-page form {
+    margin-top: 1.5rem;
+  }
+  
+  .editor-page fieldset {
+    border: none; /* Remove default fieldset border */
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input fields */
+  .editor-page .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .editor-page .form-control {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded edges */
+    transition: border-color 0.2s ease;
+  }
+  
+  .editor-page .form-control:focus {
+    border-color: #007bff; /* Highlight color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+  }
+  
+  /* Textarea styling */
+  .editor-page textarea.form-control {
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  /* Tag input */
+  .editor-page .form-group .tags-input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Submit button */
+  .Ebtn {
+    background-color: #007bff; /* Primary blue */
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .editor-page .btn-primary:hover {
+    background-color: #00b327; /* Darker blue */
+  }
+  
+  /* Error messages */
+  .editor-page .form-errors {
+    color: #ff4d4f;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .editor-page .container {
+      padding: 1rem;
+    }
+  
+    .editor-page .btn-primary {
+      width: 100%; /* Full width on small screens */
+    }
+  }
+  
